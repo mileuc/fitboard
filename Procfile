@@ -1,1 +1,1 @@
-web: cd ./backend/ && exec server.js && cd .. && npm start
+web: sh -c 'cd ./backend/ && exec server.js' && npm start
