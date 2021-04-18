@@ -1,1 +1,1 @@
-web: cd ./backend/ && exec server.js && cd ./exercise-tracker && npm start
+web: cd ./backend/ && exec server.js && cd .. && npm start
