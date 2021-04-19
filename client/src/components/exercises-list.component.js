@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
-const baseUrl = "http://localhost:5000";
+const baseUrl = "https://fitboards.herokuapp.com";
 
 const Exercise = (props) => (
   <tr>
